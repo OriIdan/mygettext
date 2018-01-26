@@ -1,0 +1,1865 @@
+# YAWIKI content management system.
+# Copyright (C) 2010
+# This file is distributed under the same license as the YAWIKI package.
+# Ori Idan <ori@helicontech.co.il>, 2010, 2011, 2012, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-13 13:52+0200\n"
+"PO-Revision-Date: 2017-11-13 13:53+0200\n"
+"Last-Translator: Ori Idan <ori@helicontech.co.il>\n"
+"Language-Team: <>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: addfiles.php:21 addfiles.php:93 usermgmt.php:465
+msgid "Group"
+msgstr "קבוצה"
+
+#: addfiles.php:25 addfiles.php:52
+msgid "Choose group"
+msgstr "בחירת קבוצה"
+
+#: addfiles.php:54
+msgid "New group"
+msgstr "קבוצה חדשה"
+
+#: addfiles.php:98 picgal.php:524 picgal.php:569 templateselect.php:13
+msgid "File name"
+msgstr "שם קובץ"
+
+#: addfiles.php:102 groupadmin.php:235 picgal.php:534
+msgid "Description"
+msgstr "תיאור"
+
+#: addfiles.php:106 articlemsg.php:237 billing.php:74 buymost.php:87
+#: dedication.php:149 epubfeedback.php:300 epubfeedback.php:357
+#: groupadmin.php:158 groupadmin.php:170 groupadmin.php:217 mailreport.php:40
+#: notifications.php:218 picgal.php:537 picgal.php:588 readmost.php:86
+#: usermgmt.php:234
+msgid "Submit"
+msgstr "עדכון"
+
+#: addfiles.php:157 addfiles.php:200
+msgid "File description needed"
+msgstr "יש למלא תיאור קובץ"
+
+#: addfiles.php:170 addfiles.php:214 templateselect.php:43
+msgid "File type not allowed"
+msgstr "סוג קובץ לא תקני"
+
+#: addfiles.php:196
+msgid "Must choose group"
+msgstr "יש לבחור קבוצה"
+
+#: addfiles.php:230 templateselect.php:48
+msgid "File added"
+msgstr "הקובץ נוסף"
+
+#: addfiles.php:279 index.php:342 pics.php:265 templateselect.php:93
+msgid "Delete"
+msgstr "מחיקה"
+
+#: addfiles.php:281 index.php:339 picgal.php:646 picgal.php:735 picgal.php:758
+msgid "Edit"
+msgstr "עריכה"
+
+#: adminstats.php:28
+msgid "Listed users"
+msgstr "משתמשים רשומים"
+
+#: adminstats.php:30
+msgid "Active users"
+msgstr "משתמשים פעילים"
+
+#: adminstats.php:32
+msgid "Apple iOS users"
+msgstr "משתמשי iOS"
+
+#: adminstats.php:34
+msgid "Android users"
+msgstr "משתמשי אנדרואיד"
+
+#: adminstats.php:64
+msgid "Helicon users"
+msgstr "משתמשי הליקון"
+
+#: adminstats.php:66
+msgid "Online reader"
+msgstr "קורא מקוון"
+
+#: adminstats.php:68
+msgid "Indiebook users"
+msgstr "משתמשי אינדיבוק"
+
+#: adminstats.php:75
+msgid "Current active users"
+msgstr "משתמשים פעילים כרגע"
+
+#: adminstats.php:81 func.inc.php:388 logdisplay.php:117 supportsys.php:368
+#: supportsys_test.php:356 usermgmt.php:336
+msgid "Date"
+msgstr "תאריך"
+
+#: adminstats.php:83
+msgid "Users"
+msgstr "משתמשים"
+
+#: adminstats.php:85
+msgid "Last month users"
+msgstr "משתמשים בחודש האחרון"
+
+#: adminstats.php:87
+msgid "Delta"
+msgstr "הפרש"
+
+#: articlemsg.php:44
+msgid "Comment for article"
+msgstr "תגים למאמר"
+
+#: articlemsg.php:109
+msgid "New response in"
+msgstr "תגובה חדשה"
+
+#: articlemsg.php:111
+msgid "New response to your message in"
+msgstr "תגובה חדשה להודעתך"
+
+#: articlemsg.php:147
+msgid "New comment in"
+msgstr "תגובה חדשה"
+
+#: articlemsg.php:184
+msgid "Your comment has been sent"
+msgstr "תגובתך נשלחה"
+
+#: articlemsg.php:191
+msgid "Please enter email address"
+msgstr "יש לציין דואר אלקטרוני"
+
+#: articlemsg.php:201 comments.php:49 epubfeedback.php:166
+#: epubfeedback.php:389 supportsys.php:287 supportsys_test.php:273
+msgid "Add comment"
+msgstr "הוספת תגובה"
+
+#: articlemsg.php:205 comments.php:57
+msgid "Name"
+msgstr "שם"
+
+#: articlemsg.php:211 edituser.php:81 func.inc.php:478 logdisplay.php:46
+#: login.php:375 login.php:395 loginform.php:90 loginform.php:155
+#: loginform.php:183 updateuser.php:79 usermgmt.php:265
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#: articlemsg.php:213
+msgid "Mandatory, will not be displayed"
+msgstr "חובה, לא יוצג"
+
+#: articlemsg.php:218
+msgid "Web site"
+msgstr "אתר אינטרנט"
+
+#: articlemsg.php:224 epubfeedback.php:349 picgal.php:528 picgal.php:582
+msgid "Title"
+msgstr "כותרת"
+
+#: articlemsg.php:230
+msgid "Message contents"
+msgstr "תוכן ההודעה"
+
+#: billing.php:20 usermgmt.php:171
+msgid "Fullname can't be empty"
+msgstr "שם מלא לא יכול להיות ריק"
+
+#: billing.php:31
+msgid "Billing details updated"
+msgstr "נתוני חיוב עודכנו"
+
+#: billing.php:50
+msgid "Details update form"
+msgstr "טופס עדכון נתוני חיוב"
+
+#: billing.php:54 billing.php:86 edituser.php:76 logdisplay.php:44
+#: login.php:155 login.php:403 loginform.php:95 supportsys.php:366
+#: supportsys_test.php:354 updateuser.php:87 usermgmt.php:203 usermgmt.php:263
+msgid "Full name"
+msgstr "שם מלא"
+
+#: billing.php:57 billing.php:88
+msgid "Unbilled books"
+msgstr "ספרים שלא חוייבו"
+
+#: billing.php:61 billing.php:91
+msgid "Unbilled notifications"
+msgstr "הודעות שלא חוייבו"
+
+#: billing.php:65 billing.php:89
+msgid "Book price"
+msgstr "מחיר לספר"
+
+#: billing.php:69 billing.php:92
+msgid "Notification price"
+msgstr "מחיר הודעה"
+
+#: billing.php:87
+msgid "Total books"
+msgstr "ספרים שנשלחו"
+
+#: billing.php:90
+msgid "Notifications"
+msgstr "הודעות"
+
+#: billing.php:93
+msgid "Payable amount"
+msgstr "סכום לתשלום"
+
+#: billing.php:94
+msgid "Currency"
+msgstr "מטבע"
+
+#: buymost.php:42 readmost.php:42
+msgid "Most read books"
+msgstr "הנקראים ביותר"
+
+#: buymost.php:44 readmost.php:43
+msgid "in Helicon books reading application"
+msgstr "באפליקציית הליקון ואינדיבוק"
+
+#: buymost.php:63 readmost.php:62
+msgid "Purchase URL updated"
+msgstr "קישור רכישה עודכן"
+
+#: buymost.php:80 readmost.php:79
+msgid "Set purchase URL for"
+msgstr "קבע קישור רכישה"
+
+#: buymost.php:83 readmost.php:82
+msgid "Purchase URL"
+msgstr "קישור רכישה"
+
+#: buymost.php:98 readmost.php:97
+msgid "From"
+msgstr "מתאריך"
+
+#: buymost.php:99 readmost.php:98
+msgid "To"
+msgstr "עד תאריך"
+
+#: catalog.php:44 ecatalog.php:117
+msgid "Digital books catalog"
+msgstr "קטלוג ספרים דיגיטליים"
+
+#: catalog.php:92
+msgid "Back to search"
+msgstr "חזרה לתוצאות החיפוש"
+
+#: catalog.php:121
+msgid "Purchase in following stores"
+msgstr "להשיג בחנויות הבאות"
+
+#: catalog.php:178 ecatalog.php:182
+msgid "Search again"
+msgstr "חיפוש מחדש"
+
+#: catalog.php:194 ecatalog.php:201
+msgid "Book name (full or partial)"
+msgstr "שם ספר (מלא או חלקי)"
+
+#: catalog.php:198 ecatalog.php:205
+msgid "Author name (full or partial)"
+msgstr "שם מחבר (מלא או חלקי)"
+
+#: catalog.php:202 ecatalog.php:209
+msgid "Publisher"
+msgstr "הוצאה לאור"
+
+#: catalog.php:207 ecatalog.php:214
+msgid "Words from description"
+msgstr "מילים מתיאור הספר"
+
+#: catalog.php:212 ecatalog.php:224
+msgid "Helicon catnum"
+msgstr "מספר קטלוגי הליקון"
+
+#: catalog.php:217 cloudlib.php:80 ecatalog.php:229 groupadmin.php:178
+#: main.php:103 usermgmt.php:57
+msgid "Search"
+msgstr "חיפוש"
+
+#: chkfname.php:22
+msgid "File name must not contain spaces"
+msgstr "שם קובץ לא יכול להכיל רווחים"
+
+#: chkfname.php:27
+msgid "File name must not contain punctuation characters"
+msgstr "שם קובץ לא יכול להכיל סימני פיסוק"
+
+#: chkfname.php:32
+msgid "File name must not contain Hebrew characters"
+msgstr "שם קובץ לא יכול להכיל אותיות בעברית"
+
+#: chkfname.php:41
+msgid "This name already exist"
+msgstr "שם זה כבר קיים"
+
+#: cloudlib.php:90 main.php:113 supportsys.php:335 supportsys_test.php:323
+#: usermgmt.php:463
+msgid "Book name"
+msgstr "שם ספר"
+
+#: cloudlib.php:96 main.php:116
+msgid "Author"
+msgstr "מחבר"
+
+#: cloudlib.php:102 main.php:119
+msgid "Reading time"
+msgstr "זמן קריאה"
+
+#: cloudlib.php:127
+msgid "Total books on device"
+msgstr "סך הכל ספרים"
+
+#: cloudlib.php:128
+msgid "On cloud only"
+msgstr "מחוקים וניתנים לשחזור"
+
+#: cloudlib.php:183 main.php:188
+msgid "Undelete"
+msgstr "החזרה ממחיקה"
+
+#: cloudlib.php:188 main.php:193
+msgid "Unable to download"
+msgstr "לא ניתן להוריד"
+
+#: cloudlib.php:192 main.php:197
+msgid "On device"
+msgstr "על המכשיר"
+
+#: comments.php:59
+msgid "Sumbit"
+msgstr "שליחה"
+
+#: contact.php:12
+msgid "Contact us"
+msgstr "צור קשר"
+
+#: contact.php:110
+msgid "Message sent"
+msgstr "ההודעה נשלחה"
+
+#: dedication.php:35 dedicaweb.php:80
+msgid "User not allowed to send books"
+msgstr "לקוח לא רשאי לשלוח ספרים"
+
+#: dedication.php:51
+msgid "Must enter full name"
+msgstr "יש למלא שם מלא"
+
+#: dedication.php:55 edituser.php:47 login.php:186 updateuser.php:42
+msgid "Invalid email address"
+msgstr "כתובת מייל לא תקינה"
+
+#: dedication.php:73 dedicaweb.php:167
+msgid "No file given"
+msgstr "לא הוכנס קובץ"
+
+#: dedication.php:79 dedicaweb.php:183
+msgid "Error copying file"
+msgstr "תקלה בהעתקת קובץ"
+
+#: dedication.php:86 dedicaweb.php:178
+msgid "Invalid file name"
+msgstr "שם קובץ לא תקין"
+
+#: dedication.php:115
+msgid "Added dedication to"
+msgstr "נוספה הקדשה עבור"
+
+#: dedication.php:124 dedicaweb.php:321
+msgid "Send a book with dedication"
+msgstr "שליחת ספר עם הקדשה"
+
+#: dedication.php:129 dedicaweb.php:327
+msgid "EPUB file"
+msgstr "קובץ EPUB"
+
+#: dedication.php:134
+msgid "Receiver full name"
+msgstr "שם מקבל"
+
+#: dedication.php:139
+msgid "Receiver email"
+msgstr "דואר אלקטרוני של מקבל"
+
+#: dedication.php:144 dedicaweb.php:276
+msgid "Dedication"
+msgstr "הקדשה"
+
+#: dedicaweb.php:97
+msgid "Internal error, unknown book file name"
+msgstr "שגיאה פנימית, שם קובץ לספר לא ידוע"
+
+#: dedicaweb.php:103 groupadmin.php:62 mailreport.php:71 sendbook.php:49
+#: sendbook.php:68
+msgid "Invalid email"
+msgstr "כתובת מייל לא תקינה"
+
+#: dedicaweb.php:141
+msgid "Book sent to"
+msgstr "הספר נשלח לכתובות"
+
+#: dedicaweb.php:210
+msgid "Undable to read book"
+msgstr "לא ניתן לקרוא ספר"
+
+#: dedicaweb.php:237
+msgid "Invalid image extension"
+msgstr "סיומת קובץ לא תקינה"
+
+#: dedicaweb.php:249
+msgid "Add dedication for book"
+msgstr "הוספת הקדשה לספר"
+
+#: dedicaweb.php:251
+msgid "Step two, Add list of emails and write dedication."
+msgstr "שלב שני, הוספת כתודות דואר אלקטרוני לשליחה וכתיבת הקדשה"
+
+#: dedicaweb.php:253
+msgid "Click update and see the result on the left hand side"
+msgstr "לחץ/י עדכון להצגת ההקדשה בצד שמאל של המסך"
+
+#: dedicaweb.php:256
+msgid "Click send file to send the book"
+msgstr "לחץ/י שליחת קובץ לשליחת הספר"
+
+#: dedicaweb.php:270
+msgid "Recipient mails (seperated by comma)"
+msgstr "כתובות דואר אלקטרוני (רשימה מופרדת בפסיקים)"
+
+#: dedicaweb.php:282
+msgid "Image (optional)"
+msgstr "קובץ תמונה (אופציונלי)"
+
+#: dedicaweb.php:292 dedicaweb.php:331 edituser.php:100 func.inc.php:426
+#: supportsys.php:372 updateuser.php:94 usercomments.php:62 usermgmt.php:221
+#: usermgmt.php:422
+msgid "Update"
+msgstr "עדכון"
+
+#: dedicaweb.php:306
+msgid "Send file"
+msgstr "שליחת קובץ"
+
+#: dedicaweb.php:323
+msgid "First step, upload book to dedicate"
+msgstr "שלב ראשון, העלאת ספר להקדשה"
+
+#: ecatalog.php:219
+msgid "Genre"
+msgstr "ז'אנר"
+
+#: edituser.php:32 usermgmt.php:198
+msgid "Update user details"
+msgstr "עדכון פרטי משתמש"
+
+#: edituser.php:44 login.php:126 login.php:179 updateuser.php:33
+#: usermgmt.php:168
+msgid "Passwords are not equal"
+msgstr "ססמאות אינן זהות"
+
+#: edituser.php:59
+msgid "User details updated"
+msgstr "נתוני משתמש עודכנו"
+
+#: edituser.php:86
+msgid "Type password only if you want to change password"
+msgstr "הקלד סיסמה רק אם ברצונך לשנותה"
+
+#: edituser.php:91 epubfeedback.php:296 login.php:378 login.php:398
+#: loginform.php:27 loginform.php:162 updateuser.php:82 usermgmt.php:205
+msgid "Password"
+msgstr "סיסמה"
+
+#: edituser.php:96 loginform.php:105
+msgid "Retype password"
+msgstr "הקלד סיסמה מחדש"
+
+#: epubfeedback.php:169 epubfeedback.php:392
+msgid "Delete comment"
+msgstr "מחיקת תגובה"
+
+#: epubfeedback.php:213 login.php:254
+msgid "Email can't be empty"
+msgstr "דואר אלקטרוני לא יכול להיות ריק"
+
+#: epubfeedback.php:224 login.php:264
+msgid "Invalid user name or password"
+msgstr "שם משתמש או ססמה לא תקינים"
+
+#: epubfeedback.php:262
+msgid "Comment updated"
+msgstr "תגובה עודכנה"
+
+#: epubfeedback.php:272
+msgid "Comment deleted"
+msgstr "תגובה נמחקה"
+
+#: epubfeedback.php:279
+msgid "Login to system"
+msgstr "חיבור למערכת"
+
+#: epubfeedback.php:281
+msgid "Use your cloud user name and password"
+msgstr "יש להשתמש בשם והסיסמה בענן"
+
+#: epubfeedback.php:292
+msgid "User name"
+msgstr "שם משתמש"
+
+#: epubfeedback.php:344
+msgid "Response"
+msgstr "תגובה"
+
+#: epubfeedback.php:353 usercomments.php:107
+msgid "Comment"
+msgstr "הערה"
+
+#: epubfeedback.php:408
+msgid "No book id given"
+msgstr "לא הוכנס מספר מזהה"
+
+#: func.inc.php:127
+msgid "normal"
+msgstr "רגיל"
+
+#: func.inc.php:128
+msgid "readers"
+msgstr "קוראים"
+
+#: func.inc.php:129
+msgid "authors"
+msgstr "מחברים"
+
+#: func.inc.php:130
+msgid "special"
+msgstr "מיוחד"
+
+#: func.inc.php:238 func.inc.php:251
+msgid "leave empty to create automaticaly"
+msgstr "השאר ריק ליצירה על ידי המערכת"
+
+#: func.inc.php:243
+msgid "-- choose page --"
+msgstr "-- בחירת דף --"
+
+#: func.inc.php:245
+msgid "-- new page --"
+msgstr "-- דף חדש --"
+
+#: func.inc.php:292
+msgid "Select module"
+msgstr "בחר מודול"
+
+#: func.inc.php:327
+msgid "Add page (new window)"
+msgstr "הוספת דף (עמוד חדש)"
+
+#: func.inc.php:346
+msgid "Identifying name"
+msgstr "שם מזהה"
+
+#: func.inc.php:356 supportsys.php:329 supportsys.php:364
+#: supportsys_test.php:317 supportsys_test.php:352 usercomments.php:101
+msgid "Subject"
+msgstr "נושא"
+
+#: func.inc.php:359 picgal.php:531 picgal.php:585
+msgid "Order"
+msgstr "סדר"
+
+#: func.inc.php:363
+msgid "Privileges"
+msgstr "הרשאות"
+
+#: func.inc.php:368
+msgid "Module"
+msgstr "מודול"
+
+#: func.inc.php:374
+msgid "Set RSS text"
+msgstr "טקסט RSS"
+
+#: func.inc.php:376
+msgid "Set Show time"
+msgstr "קביעת זמן פרסום"
+
+#: func.inc.php:397 logdisplay.php:119 notifications.php:236
+#: usercomments.php:103 usermgmt.php:338
+msgid "Time"
+msgstr "זמן"
+
+#: func.inc.php:408
+msgid "Backup current"
+msgstr "שמירת גיבוי"
+
+#: func.inc.php:412
+msgid "Backup note"
+msgstr "הערה לגיבוי"
+
+#: func.inc.php:415
+msgid "Keep editing"
+msgstr "השאר בעריכה"
+
+#: func.inc.php:422
+msgid "Allow comments"
+msgstr "אפשר תגובות"
+
+#: func.inc.php:474 login.php:386
+msgid "Forgot my password or user name"
+msgstr "שכחתי שם משתמש או סיסמה"
+
+#: func.inc.php:482 templateselect.php:17
+msgid "Send"
+msgstr "שלח"
+
+#: func.inc.php:581
+msgid "Can not delete page with sub pages"
+msgstr "לא ניתן למחוק דף עם דפי משנה"
+
+#: func.inc.php:768
+msgid "Next part"
+msgstr "המשך"
+
+#: func.inc.php:770 func.inc.php:792
+msgid "Next chapter"
+msgstr "לפרק הבא"
+
+#: groupadmin.php:58
+msgid "Max number of members reached"
+msgstr "מספר חברים מקסימלי עבר"
+
+#: groupadmin.php:80
+msgid "New users added"
+msgstr "משתמשים חדשים נוספו"
+
+#: groupadmin.php:90
+msgid "Deleted user"
+msgstr "משתמש נמחק"
+
+#: groupadmin.php:101
+msgid "Invalid group name"
+msgstr "שם קבוצה לא תקין"
+
+#: groupadmin.php:114
+msgid "Group name already used"
+msgstr "קבוצה זו כבר קיימת"
+
+#: groupadmin.php:123
+msgid "Group data updated"
+msgstr "נתוני קבוצה עודכנו"
+
+#: groupadmin.php:141
+msgid "Update group"
+msgstr "עדכן חדשה"
+
+#: groupadmin.php:144 groupadmin.php:211 groupadmin.php:228
+msgid "Group name"
+msgstr "שם קבוצה"
+
+#: groupadmin.php:149 groupadmin.php:213
+msgid "Group description"
+msgstr "תיאור קבוצה"
+
+#: groupadmin.php:154 groupadmin.php:215
+msgid "Max members"
+msgstr "מספר חברים מקסימלי"
+
+#: groupadmin.php:165
+msgid "Add users to group"
+msgstr "הוספת משתמשים לקבוצה"
+
+#: groupadmin.php:168
+msgid "Users to add, one email per line"
+msgstr "כתובות משתמשים, כתובת בכל שורה"
+
+#: groupadmin.php:207
+msgid "Add group"
+msgstr "הוספת קבוצה"
+
+#: groupadmin.php:231
+msgid "Owner"
+msgstr "בעלים"
+
+#: groupadmin.php:238
+msgid "Members"
+msgstr "חברים"
+
+#: groupadmin.php:241
+msgid "Actions"
+msgstr "פעולות"
+
+#: groupadmin.php:264
+msgid "Edit group"
+msgstr "עריכת קבוצה"
+
+#: groupadmin.php:265
+msgid "Delete group"
+msgstr "מחיקת קבוצה"
+
+#: index.php:351
+msgid "Add page"
+msgstr "הוספת דף"
+
+#: index.php:354
+msgid "Upload files"
+msgstr "העלאת קבצים"
+
+#: index.php:363
+msgid "Add main page"
+msgstr "הוספת עמוד ראשי"
+
+#: index.php:366
+msgid "Change order"
+msgstr "שינוי סדר"
+
+#: index.php:369
+msgid "Readers"
+msgstr "קוראים"
+
+#: index.php:372
+msgid "Change template"
+msgstr "החלפת תבנית"
+
+#: index.php:627
+msgid "Page does not exist"
+msgstr "דף לא קיים"
+
+#: index.php:820 login.php:381 loginform.php:41 loginform.php:123
+#: loginform.php:168
+msgid "Login"
+msgstr "כניסה"
+
+#: index.php:821
+msgid "Register"
+msgstr "הרשמה"
+
+#: index.php:825 index.php:832
+msgid "Logout"
+msgstr "התנתקות"
+
+#: index.php:841
+msgid "Tag"
+msgstr "תג"
+
+#: index.php:847
+msgid "Go to tag"
+msgstr "מעבר לתג"
+
+#: index.php:853
+msgid "User administration"
+msgstr "ניהול משתמשים"
+
+#: index.php:1006
+msgid "No identifying name specified"
+msgstr "לא נבחר שם מזהה"
+
+#: index.php:1014
+msgid "Invalid identifying name (should not contain spaces or punctuation)"
+msgstr "שם מזהה לא תקין (שם מזהה לא יכול להכיל עברית, רווחים או סימני פיסוק)"
+
+#: index.php:1019
+msgid "No subject spcified"
+msgstr "לא הוגדר נושא"
+
+#: index.php:1032
+msgid "Error creating page, page exists?"
+msgstr "שגיאה ביצירת דף, האם דף זה קיים?"
+
+#: index.php:1065
+msgid "Subject must be specified"
+msgstr "לא הוגדר נושא"
+
+#: intlink.php:11
+msgid "Internal links"
+msgstr "קישורים פנימיים"
+
+#: intlink.php:25
+msgid "Files"
+msgstr "קבצים"
+
+#: intlink.php:109
+msgid "Select internal link"
+msgstr "בחירת קישור פנימי"
+
+#: loganalyze.php:21
+msgid "Analyze logs"
+msgstr "אנליזת לוגים"
+
+#: loganalyze.php:33
+msgid "Begin date"
+msgstr "תאריך תחילה"
+
+#: loganalyze.php:41 mailreport.php:51 notifications.php:235
+msgid "User"
+msgstr "משתמש"
+
+#: loganalyze.php:49
+msgid "Filter"
+msgstr "פילטר"
+
+#: logdisplay.php:22
+msgid "Must be called with user's email"
+msgstr "יש לקרוא עם שם משתמש"
+
+#: logdisplay.php:39 usermgmt.php:258
+msgid "Email not found"
+msgstr "דואר אלקטרוני לא נמצא"
+
+#: logdisplay.php:48 usermgmt.php:210 usermgmt.php:267
+msgid "Gender"
+msgstr "מין"
+
+#: logdisplay.php:50 usermgmt.php:269
+msgid "Age"
+msgstr "גיל"
+
+#: logdisplay.php:63 usermgmt.php:41 usermgmt.php:282
+msgid "Female"
+msgstr "נקבה"
+
+#: logdisplay.php:63 usermgmt.php:41 usermgmt.php:282
+msgid "Male"
+msgstr "זכר"
+
+#: logdisplay.php:111 usermgmt.php:330
+msgid "Password reset code"
+msgstr "קוד איפוס סיסמה"
+
+#: logdisplay.php:121 usermgmt.php:340
+msgid "App."
+msgstr "אפליקציה"
+
+#: logdisplay.php:123 usermgmt.php:342
+msgid "App. ver."
+msgstr "גרסת אפליקציה"
+
+#: logdisplay.php:125 usermgmt.php:344
+msgid "OS version / User Agent"
+msgstr "גרסת מע. הפעלה / דפדפן"
+
+#: logdisplay.php:149 usermgmt.php:368
+msgid "Delete connection"
+msgstr "מחיקת חיבור"
+
+#: login.php:83
+msgid "Invalid confirmation link"
+msgstr "קישור אישור שגוי"
+
+#: login.php:92
+msgid "Registration completed"
+msgstr "הרשמה הושלמה"
+
+#: login.php:100
+msgid "Delete name"
+msgstr "מחיקת שם"
+
+#: login.php:135
+msgid "Invalid confirmation code"
+msgstr "מספר אישור שגוי"
+
+#: login.php:168
+msgid "Name already exists"
+msgstr "שם זה כבר קיים"
+
+#: login.php:173
+msgid "Please fill user name and password"
+msgstr "בבקשה למלא שם וססמא"
+
+#: login.php:191
+msgid "Full name not filled"
+msgstr "יש לציין שם מלא"
+
+#: login.php:206
+msgid "New name registered"
+msgstr "שם חדש נוצר"
+
+#: login.php:228
+msgid "Passwords are not the same"
+msgstr "ססמאות אינן זהות"
+
+#: login.php:236
+msgid "Name updated"
+msgstr "השם עודכן בהצלחה"
+
+#: login.php:314
+msgid "You have succesfully entered the system"
+msgstr "נכנסת בהצלחה למערכת"
+
+#: login.php:329
+msgid "Email does not exist in system"
+msgstr "כתובת דואר אלקטרוני לא רשומה במערכת"
+
+#: login.php:354
+msgid "Password confirmatin code was sent to your email"
+msgstr "קוד אישור סיסמה נשלח לדואר אלקטרוני"
+
+#: login.php:370 loginform.php:144
+msgid "Existing user"
+msgstr "משתמש קיים"
+
+#: login.php:390
+msgid "New user registration"
+msgstr "רישום משתמש חדש"
+
+#: login.php:401 updateuser.php:85 usermgmt.php:207
+msgid "Verify password"
+msgstr "וידוא סיסמה"
+
+#: login.php:410
+msgid "Create"
+msgstr "צור"
+
+#: loginform.php:16
+msgid "Password reset"
+msgstr "איפוס סיסמה"
+
+#: loginform.php:23
+msgid "Confirmation code"
+msgstr "קוד אישור"
+
+#: loginform.php:43 loginform.php:125 loginform.php:170
+msgid "Required field"
+msgstr "שדה נדרש"
+
+#: loginform.php:78
+msgid "New user"
+msgstr "משתמש חדש"
+
+#: loginform.php:100
+msgid "Choose password"
+msgstr "בחר סיסמה"
+
+#: loginform.php:176 loginform.php:187
+msgid "Reset password"
+msgstr "איפוס סיסמה"
+
+#: loginform.php:202
+msgid "Close"
+msgstr "סגור"
+
+#: mailreport.php:10
+msgid "App. users report"
+msgstr "דוח משתמשים באפליקציה"
+
+#: mailreport.php:34
+msgid "Mails list, one per row"
+msgstr "רשימת כתובות, מייל אחד בשורה"
+
+#: mailreport.php:47
+msgid "Download report"
+msgstr "הורדת הדוח"
+
+#: mailreport.php:53
+msgid "Registered"
+msgstr "רשום"
+
+#: mailreport.php:55
+msgid "Using app."
+msgstr "משתמש באפליקציה"
+
+#: mailreport.php:57
+msgid "Books"
+msgstr "ספרים"
+
+#: mailreport.php:59
+msgid "Last book"
+msgstr "ספר אחרון"
+
+#: main.php:77
+msgid "Book"
+msgstr "ספר"
+
+#: main.php:78 usermgmt.php:416 usermgmt.php:477
+msgid "Deleted"
+msgstr "נמחק"
+
+#: navpills.inc.php:8
+msgid "Main"
+msgstr "ראשי"
+
+#: navpills.inc.php:9
+msgid "Notification system"
+msgstr "מערכת הודעות"
+
+#: navpills.inc.php:10
+msgid "User management"
+msgstr "ניהול משתמשים"
+
+#: navpills.inc.php:11
+msgid "Groups admin"
+msgstr "ניהול קבוצות"
+
+#: navpills.inc.php:12
+msgid "Statistics"
+msgstr "סטטיסטיקה"
+
+#: navpills.inc.php:13
+msgid "Log analysis"
+msgstr "אנליזת לוגים"
+
+#: navpills.inc.php:14 sendbook.php:121
+msgid "Send book"
+msgstr "שליחת ספר"
+
+#: notificationapi.php:89 notifications.php:18
+msgid "URL"
+msgstr "כתובת אינטרנט"
+
+#: notificationapi.php:90 notifications.php:19
+msgid "Text message"
+msgstr "הודעת טקסט"
+
+#: notificationapi.php:91
+msgid "Application command"
+msgstr "פקודת אפליקציה"
+
+#: notifications.php:16
+msgid "No action"
+msgstr "ללא פעולה"
+
+#: notifications.php:17
+msgid "New book"
+msgstr "ספר חדש"
+
+#: notifications.php:32
+msgid "Must select user/group or book"
+msgstr "חובה לבחור משתמש/קבוצה או ספר"
+
+#: notifications.php:46
+msgid "Error invalid URL"
+msgstr "קישור לא תקין"
+
+#: notifications.php:58
+msgid "User does not exist"
+msgstr "משתמש לא קיים"
+
+#: notifications.php:113
+msgid "Notificaiton sent"
+msgstr "הודעה נשלחה"
+
+#: notifications.php:117
+msgid "Notifications sent"
+msgstr "הודעות נשלחו"
+
+#: notifications.php:126
+msgid "Update notification"
+msgstr "עדכון הודעה"
+
+#: notifications.php:141
+msgid "Send notifications"
+msgstr "שליחת הודעה למשתמשים"
+
+#: notifications.php:151
+msgid "Message num."
+msgstr "הודעה מספר"
+
+#: notifications.php:165
+msgid "User / Group"
+msgstr "משתמש / קבוצה"
+
+#: notifications.php:170
+msgid "Reader who purchased"
+msgstr "קורא שרכש"
+
+#: notifications.php:174
+msgid "All books"
+msgstr "כל הספרים"
+
+#: notifications.php:189
+msgid "Message time"
+msgstr "זמן הודעה"
+
+#: notifications.php:194
+msgid "Show message"
+msgstr "הצג הודעה"
+
+#: notifications.php:198 notifications.php:239
+msgid "Text"
+msgstr "טקסט"
+
+#: notifications.php:202
+msgid "Message type"
+msgstr "סוג הודעה"
+
+#: notifications.php:212
+msgid "Parameter (URL)"
+msgstr "פרמטר (URL)"
+
+#: notifications.php:237
+msgid "Show"
+msgstr "הצג"
+
+#: notifications.php:238
+msgid "Type"
+msgstr "סוג"
+
+#: picgal.php:486
+msgid "Edit image"
+msgstr "עריכת תמונה"
+
+#: picgal.php:500
+msgid "Delete image"
+msgstr "מחיקת תמונה"
+
+#: picgal.php:506
+msgid "Rotate right"
+msgstr "סיבוב ימינה"
+
+#: picgal.php:512
+msgid "Rotate left"
+msgstr "סיבוב שמאלה"
+
+#: picgal.php:519
+msgid "Upside down"
+msgstr "היפוך"
+
+#: picgal.php:555
+msgid "Add image"
+msgstr "הוספת תמונה"
+
+#: picgal.php:559
+msgid "Add from FTP"
+msgstr "הוספה מ FTP"
+
+#: picgal.php:603 picgal.php:728 picgal.php:751 pics.php:227 pics.php:253
+#: pics.php:263
+msgid "Add"
+msgstr "הוספה"
+
+#: picgal.php:631 picgal.php:658
+msgid "Previous"
+msgstr "הקודם"
+
+#: picgal.php:639 picgal.php:666
+msgid "Next"
+msgstr "הבא"
+
+#: read.php:39
+msgid "Delete book"
+msgstr "מחיקת ספר"
+
+#: readingrep.php:3
+msgid "Reading report"
+msgstr "דוח קריאה"
+
+#: registerusers.php:13
+msgid "Upload"
+msgstr "העלאת קבצים"
+
+#: registerusers.php:49 sendbook.php:115
+msgid "No file uploaded"
+msgstr "לא הוכנס קובץ"
+
+#: sendbook.php:14
+msgid "User is not permitted to send books"
+msgstr "משתמש לא רשאי לשלוח ספרים"
+
+#: sendbook.php:104
+msgid "Book was successfully sent"
+msgstr "ספר נשלח בהצלחה"
+
+#: sendbook.php:132
+msgid "Send to"
+msgstr "דואר אלקטרוני מקבל"
+
+#: sendbook.php:138
+msgid "Sent from"
+msgstr "נשלח מכתובת"
+
+#: sendbook.php:143
+msgid "Expiration date"
+msgstr "תאריך פג תוקף"
+
+#: sendbook.php:151
+msgid "Buy url"
+msgstr "קישור רכישה"
+
+#: sendbook.php:155 supportsys.php:302 supportsys.php:341
+#: supportsys_test.php:290 supportsys_test.php:329
+msgid "send"
+msgstr "שליחה"
+
+#: supportsys.php:21 supportsys_test.php:18
+msgid "I have formatted / new device and not all books downloaded"
+msgstr "יש לי מכשיר חדש / איפסתי את המכשיר ולא כל הספרים ירדו"
+
+#: supportsys.php:21 supportsys_test.php:18
+msgid "Book was not downloaded to application"
+msgstr "הספר לא ירד לאפליקציה"
+
+#: supportsys.php:21 supportsys_test.php:18
+msgid "Automatic bookmark does not work"
+msgstr "סימנייה אוטומטית לא עובדת"
+
+#: supportsys.php:21 supportsys_test.php:18
+msgid "Book does not open"
+msgstr "ספר לא נפתח"
+
+#: supportsys.php:21 supportsys_test.php:18
+msgid "Other"
+msgstr "אחר"
+
+#: supportsys.php:23 supportsys_test.php:20
+msgid "Open"
+msgstr "פתוח"
+
+#: supportsys.php:23 supportsys_test.php:20
+msgid "In progress"
+msgstr "בטיפול"
+
+#: supportsys.php:23 supportsys_test.php:20
+msgid "Closed"
+msgstr "סגור"
+
+#: supportsys.php:62 supportsys.php:74 supportsys.php:95
+#: supportsys_test.php:56 supportsys_test.php:69 supportsys_test.php:89
+msgid "Hello,"
+msgstr "שלום, "
+
+#: supportsys.php:66 supportsys.php:86 supportsys_test.php:60
+#: supportsys_test.php:80
+msgid ""
+"We increased your download limit, so your problem should be solved now. If "
+"not, please replay."
+msgstr "הגדלנו את מכסת ההורדות, כך שהבעייה אמורה להפתר, אם לא יש להגיב כאן"
+
+#: supportsys.php:69 supportsys_test.php:63
+msgid ""
+"Report was checked, and no problem was found. Please contact the book store "
+"you purchased from"
+msgstr "הפנייה נבדקה ולא נמצאה בעיה. יש לפנות לחנות ממנה רכשת"
+
+#: supportsys.php:89 supportsys_test.php:83
+msgid ""
+"If you purchased a book and you dont see it on app, please contact the book "
+"store"
+msgstr "אם לאחר רכישת ספר אינך רואה אותו באפליקציה יש לפנות לחנות ממנה רכשת"
+
+#: supportsys.php:114 supportsys_test.php:108
+msgid "We refreshed the book so it should open now. If not contact us again."
+msgstr "רעננו עבורך את הספר, אם עדיין לא נפתח יש לפנות שנית."
+
+#: supportsys.php:118 supportsys_test.php:112
+msgid "You did not enter name of book, try to refresh the book"
+msgstr "לא ציינת שם ספר, יש לנסות לרענן את הספר"
+
+#: supportsys.php:120 supportsys_test.php:114
+msgid "For each book you want to read, try to refresh it."
+msgstr "כל ספר שברצונך לקרוא יש לרענן"
+
+#: supportsys.php:122 supportsys_test.php:116
+msgid "We did not find the book, Try to refresh the book."
+msgstr "לא מצאנו את הספר, יש לנסות לרענן את הספר"
+
+#: supportsys.php:123 supportsys_test.php:117
+msgid ""
+"Long click on book image and then click the Refresh icon (two arrows), book "
+"will dissappear and reappear in few seconds"
+msgstr ""
+"לחיצה ארוכה על הספר במדף הספרים ואז בחירה ברענון (שני חיצים) הספר יעלם "
+"ויופיע בשנית לאחר מספר שניות"
+
+#: supportsys.php:138
+msgid "Boris"
+msgstr "בוריס"
+
+#: supportsys.php:146 supportsys_test.php:139
+msgid "New response from support system"
+msgstr "תגובה חדשה להודעתך"
+
+#: supportsys.php:157 supportsys_test.php:150
+msgid "You Recieved a new response to your report"
+msgstr "נתקבלה תגובה לקריאת שירות"
+
+#: supportsys.php:193 supportsys_test.php:186
+msgid "Must login before entering ticket system"
+msgstr "יש להכנס לפני שמשתמשים במערכת התמיכה"
+
+#: supportsys.php:203 supportsys_test.php:196
+msgid "Cannot open a call without a subject"
+msgstr "לא ניתן לפתוח קריאה ללא נושא"
+
+#: supportsys.php:213 supportsys.php:385 usercomments.php:118
+msgid "No subject"
+msgstr "ללא נושא"
+
+#: supportsys.php:222 supportsys_test.php:213
+msgid "Ticket successfully sent"
+msgstr "בקשת תמיכה נשלחה"
+
+#: supportsys.php:257 supportsys_test.php:248
+msgid "Ticket number"
+msgstr "כרטיס מספר"
+
+#: supportsys.php:259 supportsys_test.php:250
+msgid "All tickets"
+msgstr "כל הכרטיסים"
+
+#: supportsys.php:289 supportsys_test.php:277
+msgid "feedback"
+msgstr "תוכן"
+
+#: supportsys.php:310 supportsys_test.php:298
+msgid "Support system"
+msgstr "מערכת תמיכה"
+
+#: supportsys.php:321 supportsys_test.php:309
+msgid "Select an issue"
+msgstr "בחר נושא"
+
+#: supportsys.php:338 supportsys_test.php:326
+msgid "comment"
+msgstr "הערה"
+
+#: supportsys.php:345 supportsys_test.php:333
+msgid "Existing tickets"
+msgstr "כרטיסים קיימים"
+
+#: supportsys.php:353 supportsys_test.php:341
+msgid "report status"
+msgstr "סטטוס"
+
+#: supportsys.php:370
+msgid "Responses"
+msgstr "תגובות"
+
+#: templateselect.php:60
+msgid "Choose template for"
+msgstr "בחירת תבנית עבור"
+
+#: templateselect.php:74
+msgid "Current template"
+msgstr "תבנית נוכחית"
+
+#: updateuser.php:62
+msgid "Edit user details"
+msgstr "עריכת פרטי משתמש"
+
+#: usercomments.php:71
+msgid "Comment added successfully"
+msgstr "הערה נוספה בהצלחה"
+
+#: usercomments.php:98
+msgid "Helicon support tickets"
+msgstr "כרטיסי תמיכה ממערכת תמיכה של הליקון ספרים"
+
+#: usercomments.php:105
+msgid "Bookname"
+msgstr "שם ספר"
+
+#: usermgmt.php:41
+msgid "Select gender"
+msgstr "בחר מין"
+
+#: usermgmt.php:53
+msgid "User email"
+msgstr "דואר אלקטרוני"
+
+#: usermgmt.php:72
+msgid "Download limit updated"
+msgstr "מגבלת הורדות עודכנה"
+
+#: usermgmt.php:81
+msgid "No such user, not transferring"
+msgstr "משתמש לא קיים, לא מעביר"
+
+#: usermgmt.php:105
+msgid "Books transferred to new account"
+msgstr "ספרים עברו לחשבון החדש"
+
+#: usermgmt.php:113
+msgid "New user name is the same as old one"
+msgstr "שם המשתמש זהה לשם הקודם"
+
+#: usermgmt.php:138
+msgid "Books deleted since they already exist on new user account"
+msgstr "ספרים נמחקו מאחר שהם קיימים בחשבון החדש"
+
+#: usermgmt.php:139
+msgid "Books transfered to new account"
+msgstr "ספרים עברו לחשבון החדש"
+
+#: usermgmt.php:147
+msgid "Old user name deleted"
+msgstr "שם משתמש נמחק"
+
+#: usermgmt.php:151
+msgid "User name changed"
+msgstr "שם משתמש שונה"
+
+#: usermgmt.php:180
+msgid "Name updated successfully"
+msgstr "שם עודכן בהצלחה"
+
+#: usermgmt.php:214
+msgid "Birth date"
+msgstr "תאריך לידה"
+
+#: usermgmt.php:218
+msgid "Comments"
+msgstr "הערות"
+
+#: usermgmt.php:229
+msgid "Change user name"
+msgstr "שינוי שם משתמש"
+
+#: usermgmt.php:231
+msgid "New name"
+msgstr "שם חדש"
+
+#: usermgmt.php:398
+msgid "Book updated successfully"
+msgstr "ספר עודכן בהצלחה"
+
+#: usermgmt.php:406
+msgid "Edit book details for"
+msgstr "עריכת פרטי ספר עבור"
+
+#: usermgmt.php:407
+msgid "for"
+msgstr "עבור"
+
+#: usermgmt.php:410 usermgmt.php:473
+msgid "Downloads"
+msgstr "הורדות"
+
+#: usermgmt.php:413
+msgid "Download limit"
+msgstr "מגבלת הורדות"
+
+#: usermgmt.php:418
+msgid "Refresh book"
+msgstr "רענון ספר"
+
+#: usermgmt.php:420
+msgid "Delete bookmark"
+msgstr "מחיקת סימנייה"
+
+#: usermgmt.php:435
+msgid "Books for"
+msgstr "ספרים עבור"
+
+#: usermgmt.php:445
+msgid "Show logs"
+msgstr "הצג לוגים"
+
+#: usermgmt.php:451
+msgid "Add downloads for all books"
+msgstr "הוספת הורדות לכל הספרים"
+
+#: usermgmt.php:467
+msgid "Last op"
+msgstr "פעולה אחרונה"
+
+#: usermgmt.php:470
+msgid "Origin"
+msgstr "מקור"
+
+#: usermgmt.php:475
+msgid "Limit"
+msgstr "מגבלה"
+
+#: usermgmt.php:480
+msgid "Location"
+msgstr "מיקום"
+
+#: usermgmt.php:482
+msgid "Delete time"
+msgstr "זמן מחיקה"
+
+#: usermgmt.php:538
+msgid "Total books for user"
+msgstr "סך הכל ספרים למשתמש"
+
+#~ msgid "Last update"
+#~ msgstr "עדכון אחרון"
+
+#~ msgid "User is not permitted"
+#~ msgstr "משתמש לא רשאי לשלוח ספרים"
+
+#~ msgid "Number of groups"
+#~ msgstr "מספר קבוצות"
+
+#~ msgid "Remmant"
+#~ msgstr "שארית"
+
+#~ msgid "OS version"
+#~ msgstr "גרסת מע. הפעלה"
+
+#~ msgid "Login time"
+#~ msgstr "זמן חיבור"
+
+#~ msgid ""
+#~ "If you dont see the books, please contact the book store you purchased "
+#~ "from"
+#~ msgstr "אם לאחר רכישת ספר אינך רואה אותו באפליקציה יש לפנות לחנות ממנה רכשת"
+
+#, fuzzy
+#~ msgid ""
+#~ "If not all books downloaded to app, please contact the book store you "
+#~ "purchased from"
+#~ msgstr "אם לאחר רכישת ספר אינך רואה אותו באפליקציה יש לפנות לחנות ממנה רכשת"
+
+#~ msgid "Empty message text"
+#~ msgstr "הודעה ללא טקסט"
+
+#~ msgid "Text English"
+#~ msgstr "טקסט אנגלית"
+
+#~ msgid "Text Hebrew"
+#~ msgstr "טקסט עברית"
+
+#~ msgid "New notification"
+#~ msgstr "הודעה חדשה"
+
+#~ msgid "Password updated successfully"
+#~ msgstr "סיסמה עודכנה בהצלחה"
+
+#~ msgid ""
+#~ "Confirmation email sent, please press the link in the mail message to "
+#~ "continue"
+#~ msgstr "נשלח דואר אלקטרוני לאישור, נא ללחוץ על הקישור בהודעה להמשך"
+
+#~ msgid "Invalid password change link"
+#~ msgstr "קישור שינוי סיסמה לא תקף"
+
+#~ msgid "Sorry, link has expired"
+#~ msgstr "מצטערים פג תוקפו של הקישור"
+
+#~ msgid "A new password was created for you"
+#~ msgstr "סיסמה חדשה נוצרה עבורך"
+
+#~ msgid "The password is"
+#~ msgstr "הסיסמה היא"
+
+#~ msgid "Note: system is case sensitive (A is not like a)"
+#~ msgstr "הערה: המערכת רגישה לגודל אות (A אינו a)"
+
+#~ msgid "New password"
+#~ msgstr "סיסמה חדשה"
+
+#, fuzzy
+#~ msgid "Unbulled books"
+#~ msgstr "ספרים שלא חוייבו"
+
+#~ msgid "Number of unbilled books updated"
+#~ msgstr "מספר ספרים שלא חוייבו עודכנו"
+
+#~ msgid "-- Select customer --"
+#~ msgstr "-- בחר לקוח --"
+
+#~ msgid "Email address not registered in system"
+#~ msgstr "כתובת דואר אלקטרוני לא רשומה במערכת"
+
+#~ msgid "Recommended size"
+#~ msgstr "גודל מומלץ"
+
+#~ msgid "bio"
+#~ msgstr "ביוגרפיה"
+
+#~ msgid "Editing"
+#~ msgstr "עריכה"
+
+#~ msgid ""
+#~ "Registered users can delete comments they wrote after it was published"
+#~ msgstr "משתמשים רשומים יכולים למחוק תגובות לאחר שפורסמו"
+
+#~ msgid "Email is not displayed to users"
+#~ msgstr "דואר אלקטרוני לא מוצג למשתמשים"
+
+#~ msgid "PayPal cancel"
+#~ msgstr "ביטול רכישה ב PayPal"
+
+#~ msgid "Inert both email and fullname"
+#~ msgstr "יש לציין דואר אלקטרוני ושם מלא"
+
+#~ msgid "Thank you for downloading"
+#~ msgstr "תודה שהורדת את הספר"
+
+#~ msgid "Downloading should start automatically, if it does not"
+#~ msgstr "הורדת הספר תחל באופן אוטומטי. אם לא"
+
+#~ msgid "Click here"
+#~ msgstr "לחץ כאן "
+
+#~ msgid "Download link is specific to user's mail and name"
+#~ msgstr "הקישור להורדה הוא ספציפי לכל משתמש "
+
+#~ msgid "We will not use disclose this address or use it for spam"
+#~ msgstr "אנו לא נעשה שימוש במייל לספאם ולא נחשוף אותו לאף אחד"
+
+#~ msgid "For more information see our"
+#~ msgstr "לפרטים נוספים ראה"
+
+#~ msgid "privacy policy"
+#~ msgstr "מדיניות פרטיות"
+
+#~ msgid "Price"
+#~ msgstr "מחיר"
+
+#~ msgid "&nbsp;Buy&nbsp;"
+#~ msgstr "&nbsp;רכישה&nbsp;"
+
+#~ msgid "Preiview book"
+#~ msgstr "קריאה מקוונת"
+
+#~ msgid "Coupon code"
+#~ msgstr "קוד קופון"
+
+#~ msgid "Discount (%)"
+#~ msgstr "הנחה (%)"
+
+#~ msgid "Max usage"
+#~ msgstr "מספר שימושים מקסימלי"
+
+#~ msgid "No title"
+#~ msgstr "ללא כותרת"
+
+#~ msgid "Click here to return"
+#~ msgstr "לחץ כאן לחזרה"
+
+#~ msgid "Buyer name or receiver name must be filled"
+#~ msgstr "יש למלא שם רוכש ושם מקבל"
+
+#~ msgid "Invalid receiver email"
+#~ msgstr "כתובת מקבל לא תקינה"
+
+#~ msgid "Buyer name"
+#~ msgstr "שם רוכש"
+
+#~ msgid "Send as gift"
+#~ msgstr "שלח כמתנה"
+
+#~ msgid "Buy as gift"
+#~ msgstr "רכישה כמתנה"
+
+#~ msgid "Continue"
+#~ msgstr "המשך"
+
+#~ msgid "Coupon not valid for this sum"
+#~ msgstr "קופון לא תקף לסכום זה"
+
+#~ msgid "viewonly"
+#~ msgstr "קריאה בלבד"
+
+#~ msgid "restricted"
+#~ msgstr "מוגבל"
+
+#~ msgid "More..."
+#~ msgstr "המשך..."
+
+#~ msgid "You do not have permissions for this page"
+#~ msgstr "אין לך הרשאות לדף זה"
+
+#~ msgid "Thank you"
+#~ msgstr "תודה רבה"
+
+#~ msgid "Your payment of"
+#~ msgstr "התשלום בסך"
+
+#~ msgid "Had been received"
+#~ msgstr "התקבל"
+
+#~ msgid "Error connecting to PayPal site"
+#~ msgstr "תקלה בחיבור ל PayPal"
+
+#~ msgid "Error connecting to PayPal"
+#~ msgstr "תקלה בחיבור ל PayPal"
+
+#~ msgid "Error"
+#~ msgstr "שגיאה"
+
+#~ msgid "Connecting to PayPal"
+#~ msgstr "מתחבר ל PayPal"
+
+#~ msgid "Redirecting to PayPal"
+#~ msgstr "מפנה ל PayPal"
+
+#~ msgid "This book was bought for"
+#~ msgstr "ספר זה נרכש עבור"
+
+#~ msgid "This book was bought by"
+#~ msgstr "ספר זה נרכש על ידי"
+
+#~ msgid "eBook is for personal use only and can be downloaded up to 5 times"
+#~ msgstr "הספר הוא לשימוש אישי וניתן להורדה על 5 פעמים"
+
+#~ msgid "here"
+#~ msgstr "כאן"
+
+#~ msgid "In order to read you need an EPUB reading application."
+#~ msgstr "על מנת לקרוא יש להשתמש באפליקצית קריאה ל EPUB"
+
+#~ msgid "See our 'how to read' page'"
+#~ msgstr "ראה עמוד \"כיצד לקרוא\""
+
+#~ msgid "All form fields must be filled"
+#~ msgstr "יש למלא את כל השדות"
+
+#~ msgid "Add author"
+#~ msgstr "הוסף מחבר"
+
+#~ msgid "New tag"
+#~ msgstr "תג חדש"
+
+#~ msgid "Add tag"
+#~ msgstr "הוספת תג"
+
+#~ msgid "All languages"
+#~ msgstr "כל השפות"
+
+#~ msgid "Free"
+#~ msgstr "חינם"
+
+#~ msgid "Must login as store manager"
+#~ msgstr "יש להתחבר כמנהל חנות"
+
+#~ msgid "Book language"
+#~ msgstr "שפת הספר"
+
+#~ msgid "Choose type"
+#~ msgstr "בחירת סוג"
+
+#~ msgid "New type"
+#~ msgstr "סוג חדש"
+
+#~ msgid "Cover image"
+#~ msgstr "תמונת שער"
+
+#~ msgid "Preview chapters"
+#~ msgstr "פרקים לצפייה מוקדמת"
+
+#~ msgid "Invalid book file extension, must be .epub"
+#~ msgstr "שם קובץ ספר לא תקין"
+
+#~ msgid "New book entered"
+#~ msgstr "ספר חדש נכנס למערכת"
+
+#~ msgid "Ref. num"
+#~ msgstr "אסמכתא"
+
+#~ msgid "Date range"
+#~ msgstr "טווח תאריכים"
+
+#~ msgid "To date"
+#~ msgstr "עד תאריך"
+
+#~ msgid "Total"
+#~ msgstr "סה\"כ"
+
+#~ msgid "You don't have permissions for this book"
+#~ msgstr "אין לך הרשאות לספר זה"
+
+#~ msgid "Manage tags"
+#~ msgstr "ניהול תגיות"
+
+#~ msgid "Return to book details"
+#~ msgstr "חזרה להצגת פרטי ספר"
+
+#~ msgid "Book was sent to email address supplied"
+#~ msgstr "הספר נשלח לכתובת שסופקה"
+
+#~ msgid "Show preview"
+#~ msgstr "הצג קריאה מקוונת"
+
+#~ msgid "Preview file"
+#~ msgstr "קובץ קריאה מכוונת"
+
+#~ msgid "Leave empty for same file"
+#~ msgstr "השאר ריק לשימוש באותו קובץ"
+
+#~ msgid "Article text"
+#~ msgstr "תוכן המאמר"
+
+#~ msgid "Lock page"
+#~ msgstr "נעילת דף"
+
+#~ msgid "Click here to continue"
+#~ msgstr "לחץ כאן להמשך"
+
+#~ msgid "Close window"
+#~ msgstr "סגירת חלון"
+
+#~ msgid "Color"
+#~ msgstr "צבע"
+
+#~ msgid "Size"
+#~ msgstr "מידות"
+
+#~ msgid "General"
+#~ msgstr "כללי"
+
+#~ msgid "Select"
+#~ msgstr "בחירה"
+
+#~ msgid "Clicking the top right 'X' will close the image"
+#~ msgstr "לחיצה על ה X הימני העליון תסגור את התמונה"
+
+#~ msgid "Moving the mouse over area '1' will show link to next image if any"
+#~ msgstr "העברת העכבר על שטח '1' תציג קישור \"הבא\""
+
+#~ msgid ""
+#~ "Moving the mouse over area '2' will show link to previous image if any"
+#~ msgstr "העברת העכבר על שטח '2' תציג קישור \"הקודם\""
+
+#~ msgid "Moving the mouse over area '3' will show image description"
+#~ msgstr "העברת העכבר על שטח '3' תציג תיאור לתמונה (אם קיים)"
+
+#~ msgid "The gallery will work best on the following browsers"
+#~ msgstr "הגלריה עובדת הכי טוב בדפדפנים הבאים"
+
+#~ msgid "Firefox"
+#~ msgstr "פיירפוקס"
+
+#~ msgid "Google chrome"
+#~ msgstr "גוגל כרום"
+
+#~ msgid "Epiphany"
+#~ msgstr "אפיפני"
+
+#~ msgid "Linux"
+#~ msgstr "לינוקס"
+
+#~ msgid "Konqueror"
+#~ msgstr "קונקרר"
+
+#~ msgid "Opera"
+#~ msgstr "אופרה"
+
+#~ msgid "Safari"
+#~ msgstr "ספארי"
+
+#~ msgid "Private tag"
+#~ msgstr "תג פרטי"
+
+#~ msgid "Tags for article"
+#~ msgstr "תגים למאמר"
+
+#~ msgid "Can not tag withoug logging in"
+#~ msgstr "לא ניתן לתייג ללא התחברות למערכת"
+
+#~ msgid "Video url"
+#~ msgstr "כתובת סרטון"
+
+#~ msgid "Click back to continue"
+#~ msgstr "לחצי חזור להמשך"
+
+#~ msgid "open"
+#~ msgstr "פתיחה"

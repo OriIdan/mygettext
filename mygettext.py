@@ -11,7 +11,8 @@
 # I don't really know Python and think this is one of the most complicated languages exist but I will try my best.
 # License is LGPL so I will be happy to get code contribution from people who really know Python.
 #
-# This module uses directly the PO file as I have no idea of the internal format of MO files and have no time to study it.
+# This module uses directly the PO file
+# I have no idea of the internal format of MO files and have no time to study it.
 import os, re
 
 # Initialize the translation dictionary
@@ -59,7 +60,7 @@ def init(domain, lang, base):
 				continue
 			if (msgid != '') and (msgstr != ''):
 				translate[msgid] = msgstr
-				print "1 Add message id: '" + msgid + "' String: '" + msgstr + "'"
+#				print "1 Add message id: '" + msgid + "' String: '" + msgstr + "'"
 				msgid = ''
 				msgstr = ''
 			r = re.match('msgid "(.*)"', l)
@@ -77,7 +78,7 @@ def init(domain, lang, base):
 		elif state == 2:
 			if l == '\n':
 				translate[msgid] = msgstr
-				print "2 Add message id: '" + msgid + "' String: '" + msgstr + "'"
+#				print "2 Add message id: '" + msgid + "' String: '" + msgstr + "'"
 				msgid = ''
 				msgstr = ''
 				state = 0
@@ -88,7 +89,7 @@ def init(domain, lang, base):
 			if r is not None:
 				# New msgid
 				translate[msgid] = msgstr
-				print "3 Add message id: '" + msgid + "' String: '" + msgstr + "'"
+#				print "3 Add message id: '" + msgid + "' String: '" + msgstr + "'"
 				msgid = r.group(1)
 				msgstr = ''
 				state = 1
