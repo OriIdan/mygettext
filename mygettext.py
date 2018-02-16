@@ -11,8 +11,7 @@
 # I don't really know Python and think this is one of the most complicated languages exist but I will try my best.
 # License is LGPL so I will be happy to get code contribution from people who really know Python.
 #
-# This module uses directly the PO file
-# I have no idea of the internal format of MO files and have no time to study it.
+# This module uses directly the PO file as I have no idea of the internal format of MO files and have no time to study it.
 import os, re
 
 # Initialize the translation dictionary
@@ -49,18 +48,18 @@ def init(domain, lang, base):
 	msgid = ''
 	msgstr = ''
 	i = 0;
-	f = open(fname, 'r')
+	f = open(fname, 'r', encoding='utf-8')
 	for l in f:
 		i += 1
 		if re.match('^#.*', l):
 			continue
-#		print "state: " + str(state) + " l: " + l
+#		print("state: " + str(state) + " l: " + l, end='<br />\n')
 		if state == 0:
 			if l == '\n':
 				continue
 			if (msgid != '') and (msgstr != ''):
 				translate[msgid] = msgstr
-#				print "1 Add message id: '" + msgid + "' String: '" + msgstr + "'"
+#				print("1 Add message id: '" + msgid + "' String: '" + msgstr + "'", end='<br />\n')
 				msgid = ''
 				msgstr = ''
 			r = re.match('msgid "(.*)"', l)
@@ -78,7 +77,7 @@ def init(domain, lang, base):
 		elif state == 2:
 			if l == '\n':
 				translate[msgid] = msgstr
-#				print "2 Add message id: '" + msgid + "' String: '" + msgstr + "'"
+#				print("2 Add message id: '" + msgid + "' String: '" + msgstr + "'", end='<br />\n')
 				msgid = ''
 				msgstr = ''
 				state = 0
@@ -94,13 +93,10 @@ def init(domain, lang, base):
 				msgstr = ''
 				state = 1
 
-init('messages', 'he_IL', 'locales')
-
 def gettext(str):
 	global translate
 	
-	if translate[str] is not None:
+	if str in translate:
 		return translate[str]
 	return str
 
-			
